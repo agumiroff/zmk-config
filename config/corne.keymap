@@ -21,11 +21,6 @@
             key-positions = <19 20 21>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <15 16>;
-        };
-
         ru {
             bindings = <&ru_layer>;
             key-positions = <38 4>;
@@ -36,6 +31,11 @@
             bindings = <&en_layer>;
             key-positions = <38 3>;
             layers = <2>;
+        };
+
+        YO {
+            bindings = <&kp GRAVE>;
+            key-positions = <4 5>;
         };
     };
 
@@ -94,7 +94,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TILDE       &kp Q                         &kp W  &kp E      &kp R         &kp T          &kp Y              &kp U  &kp I              &kp O    &kp P     &kp LEFT_BRACKET
+&kp TAB         &kp Q                         &kp W  &kp E      &kp R         &kp T          &kp Y              &kp U  &kp I              &kp O    &kp P     &kp LEFT_BRACKET
 &kp LEFT_SHIFT  &mt LA(LC(LG(LEFT_SHIFT))) A  &kp S  &kp D      &kp F         &kp G          &kp H              &kp J  &kp K              &kp L    &kp SEMI  &kp SQT
 &kp LEFT_ALT    &kp Z                         &kp X  &kp C      &kp V         &kp B          &kp N              &kp M  &kp COMMA          &kp DOT  &kp FSLH  &kp RALT
                                                      &kp LCTRL  &kp LEFT_GUI  &lt 3 SPACE    &kp LS(BACKSPACE)  &mo 1  &kp RIGHT_BRACKET
@@ -109,7 +109,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB         &kp EXCLAMATION       &kp AT_SIGN            &kp HASH          &kp DOLLAR         &kp PERCENT         &kp CARET      &kp LS(AMPERSAND)  &kp ASTERISK  &kp COLON     &kp SEMICOLON      &trans
+&kp TILDE       &kp EXCLAMATION       &kp AT_SIGN            &kp HASH          &kp DOLLAR         &kp PERCENT         &kp CARET      &kp LS(AMPERSAND)  &kp ASTERISK  &kp COLON     &kp SEMICOLON      &trans
 &kp LEFT_SHIFT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN       &kp LEFT       &kp DOWN           &kp UP        &kp RIGHT     &kp DOUBLE_QUOTES  &kp SQT
 &trans          &trans                &kp BACKSLASH          &kp PIPE          &kp SLASH          &kp GREATER_THAN    &kp EQUAL      &kp DOT            &kp COMMA     &kp QUESTION  &kp MINUS          &trans
                                                              &kp LCTRL         &kp LEFT_GUI       &kp SPACE           &kp BACKSPACE  &trans             &trans
@@ -118,7 +118,7 @@
 
         ru_layer {
             bindings = <
-&kp TILDE       &kp Q                         &kp W  &kp E      &kp R         &kp T          &kp Y              &kp U  &kp I              &kp O    &kp P     &kp LEFT_BRACKET
+&kp TAB         &kp Q                         &kp W  &kp E      &kp R         &kp T          &kp Y              &kp U  &kp I              &kp O    &kp P     &kp LEFT_BRACKET
 &kp LEFT_SHIFT  &mt LA(LC(LG(LEFT_SHIFT))) A  &kp S  &kp D      &kp F         &kp G          &kp H              &kp J  &kp K              &kp L    &kp SEMI  &kp SQT
 &kp LEFT_ALT    &kp Z                         &kp X  &kp C      &kp V         &kp B          &kp N              &kp M  &kp COMMA          &kp DOT  &kp FSLH  &kp RIGHT_ALT
                                                      &kp LCTRL  &kp LEFT_GUI  &lt 3 SPACE    &kp LS(BACKSPACE)  &en    &kp RIGHT_BRACKET
