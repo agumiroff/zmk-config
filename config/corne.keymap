@@ -25,6 +25,18 @@
             bindings = <&kp TAB>;
             key-positions = <15 16>;
         };
+
+        ru {
+            bindings = <&ru>;
+            key-positions = <38 4>;
+            layers = <0>;
+        };
+
+        en {
+            bindings = <&en>;
+            key-positions = <38 3>;
+            layers = <2>;
+        };
     };
 
     macros {
