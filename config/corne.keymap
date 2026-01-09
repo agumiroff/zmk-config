@@ -59,9 +59,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&mo 1 &kp LA(NUMBER_1)>,
+                <&to 1 &kp LA(NUMBER_1)>,
                 <&macro_release>,
-                <&kp LA(NUMBER_2)>;
+                <&to 2 &kp LA(NUMBER_2)>;
 
             label = "RU_SYM";
         };
