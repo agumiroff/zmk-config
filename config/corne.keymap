@@ -43,14 +43,14 @@
         en: en {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(NUMBER_1) &mo 0>;
+            bindings = <&kp LA(NUMBER_1) &to 0>;
             label = "EN";
         };
 
         ru: ru {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(NUMBER_2) &mo 2>;
+            bindings = <&kp LA(NUMBER_2) &to 2>;
             label = "RU";
         };
 
